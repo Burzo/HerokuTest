@@ -43,7 +43,7 @@ app.get("/", (req, res) => {
 
 app.get("/projects", (req, res) => {
     res.render(("projects.hbs"), {
-        pageTitle: "Home Page",
+        pageTitle: "Projects Page",
         welcomeMessage: "Welcome to my page"
     })
 })
